@@ -31,7 +31,8 @@ import MyDetail from "./components/index/MyDetail.vue"
   flex-basis: @introduction-width;
   display: flex;
   justify-content: center;
-  background-image: url("src/images/cover.jpeg");
+  align-items: center;
+  background-image: url("/public/images/cover.jpeg");
 
   #my-introduction {
 
