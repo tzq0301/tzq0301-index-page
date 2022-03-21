@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MdContainer :markdown="markdown"/>
+    <MdContainer class="md" :markdown="markdown"/>
   </div>
 </template>
 
@@ -17,6 +17,10 @@ const markdown = `
 `.trim();
 </script>
 
-<style scoped>
+<style scoped lang="less">
+@import url(/src/css/fonts);
 
+.md {
+  font-family: merriweatherRegular, serif;
+}
 </style>

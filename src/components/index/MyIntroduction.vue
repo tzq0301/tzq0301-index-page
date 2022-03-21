@@ -12,6 +12,8 @@ const name = "tzq0301";
 </script>
 
 <style scoped lang="less">
+@import url(/src/css/fonts);
+
 #container {
   display: flex;
   flex-direction: column;
@@ -31,10 +33,5 @@ const name = "tzq0301";
   font-family: merriweatherRegular, serif;
   font-size: 16pt;
   color: white;
-}
-
-@font-face {
-  font-family: merriweatherRegular;
-  src: url("/public/fonts/Merriweather/Merriweather-Regular.ttf");
 }
 </style>
