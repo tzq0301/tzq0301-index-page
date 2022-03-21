@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed } from 'vue';
 import { marked } from "marked";
 
 const props = defineProps({
@@ -13,6 +13,6 @@ const props = defineProps({
 const markdownToHtml = computed(() => marked(props.markdown));
 </script>
 
-<style scoped>
+<style>
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="flex justify-center">
       <img id="avatar" class="w-52 h-52 rounded-full object-cover" src="/public/images/tzq.jpg" alt="无法显示头像"/>
     </div>
@@ -12,15 +12,16 @@
 
     <div class="flex justify-center items-center space-y-3 flex-col">
       <MyIntroductionIcon
-          icon-path="/icons/github.png"
-          icon-value="https://github.com/tzq0301"
-          text="github.com/tzq0301"/>
-      <MyIntroductionIcon
           icon-path="/icons/gmail.png"
           icon-value="tzq0301@gmail.com"
           text="tzq0301@gmail.com"/>
+      <MyIntroductionIcon
+          icon-path="/icons/github.png"
+          icon-value="https://github.com/tzq0301"
+          text="github.com/tzq0301"/>
     </div>
   </div>
+  <a class="absolute bottom-3 text-xs text-gray-300 text-center" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备20029529号</a>
 </template>
 
 <script setup lang="ts">
