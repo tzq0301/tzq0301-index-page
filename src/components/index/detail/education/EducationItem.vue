@@ -4,7 +4,7 @@
     <li v-show="props.major">Major&ensp;-&ensp;{{ props.major }}</li>
     <li v-show="props.averageScore">Average Score&ensp;-&ensp;{{ props.averageScore }}</li>
     <li v-show="props.cet6">CET&ensp;6&ensp;-&ensp;{{ props.cet6 }}</li>
-    <li v-show="props.courses && props.courses.length > 0">Courses&ensp;-&ensp;{{ props.courses.join(",&ensp;") }}</li>
+    <li v-show="props.courses && props.courses.length > 0">Courses&ensp;-&ensp;{{ props.courses?.join(",&ensp;") }}</li>
   </ul>
 </template>
 
