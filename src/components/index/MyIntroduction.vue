@@ -1,14 +1,14 @@
 <template>
   <div class="container">
-    <div id="avatar-container">
-      <img id="avatar" src="/public/images/tzq.jpg" alt="无法显示头像"/>
+    <div class="flex justify-center">
+      <img id="avatar" class="w-52 h-52 rounded-full object-cover" src="/public/images/tzq.jpg" alt="无法显示头像"/>
     </div>
 
-    <div style="height: 2vh"/>
+    <div class="h-6"/>
 
-    <div id="name">{{ name }}</div>
+    <div id="name" class="text-2xl text-white text-center mw-regular">{{ name }}</div>
 
-    <div style="height: 1.2vh"/>
+    <div class="h-3"/>
 
     <div>
       <MyIntroductionIcon
@@ -27,25 +27,4 @@ const name = "tzq0301";
 
 <style scoped lang="less">
 @import url(/src/css/fonts);
-
-#avatar-container {
-  display: flex;
-  justify-content: center;
-}
-
-#avatar {
-  @avatar-length: 12vw;
-  width: @avatar-length;
-  height: @avatar-length;
-
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-#name {
-  text-align: center;
-  font-family: merriweatherRegular, serif;
-  font-size: 18pt;
-  color: white;
-}
 </style>
