@@ -31,7 +31,7 @@ import MyDetail from "./components/index/MyDetail.vue"
   flex-basis: @introduction-width;
   display: flex;
   justify-content: center;
-  background-color: orange;
+  background-image: url("src/images/cover.jpeg");
 
   #my-introduction {
 
