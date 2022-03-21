@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MdContainer class="md" :markdown="markdown"/>
+    <MdContainer class="mw-regular" :markdown="markdown"/>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import MdContainer from "../md/MdContainer.vue";
 
 const markdown = `
-# Welcome to my index!
+# Welcome to My Index!
 
 - 🔭 I’m currently studying at Sichuan University (SCU)
 - 🌱 I’m currently learning Natural Language Processing (NLP)
@@ -19,8 +19,4 @@ const markdown = `
 
 <style scoped lang="less">
 @import url(/src/css/fonts);
-
-.md {
-  font-family: merriweatherRegular, serif;
-}
 </style>
