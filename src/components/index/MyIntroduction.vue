@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div id="avatar-container">
-      <img id="avatar" src="public/images/tzq.jpg" alt="无法显示头像"/>
+      <img id="avatar" src="/public/images/tzq.jpg" alt="无法显示头像"/>
     </div>
 
     <div style="height: 2vh"/>
@@ -12,7 +12,7 @@
 
     <div>
       <MyIntroductionIcon
-          icon-path="public/icons/github.png"
+          icon-path="/icons/github.png"
           icon-value="https://github.com/tzq0301"
           text="tzq0301"/>
     </div>
