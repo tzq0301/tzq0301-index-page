@@ -10,8 +10,8 @@
 </template>
 
 <script setup lang="ts">
-import MyIntroduction from "/src/components/index/MyIntroduction.vue"
-import MyDetail from "/src/components/index/MyDetail.vue"
+import MyIntroduction from "/src/components/index/introduction/MyIntroduction.vue"
+import MyDetail from "/src/components/index/detail/MyDetail.vue"
 </script>
 
 <style scoped lang="less">

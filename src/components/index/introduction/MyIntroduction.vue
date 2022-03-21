@@ -12,6 +12,10 @@
 
     <div class="flex justify-center items-center space-y-3 flex-col">
       <MyIntroductionIcon
+          icon-path="/icons/location.png"
+          icon-value="https://zh.wikipedia.org/wiki/%E6%88%90%E9%83%BD%E5%B8%82"
+          text="Chengdu, China"/>
+      <MyIntroductionIcon
           icon-path="/icons/gmail.png"
           icon-value="tzq0301@gmail.com"
           text="tzq0301@gmail.com"/>
