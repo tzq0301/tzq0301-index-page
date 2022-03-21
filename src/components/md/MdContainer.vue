@@ -13,6 +13,6 @@ const props = defineProps({
 const markdownToHtml = computed(() => marked(props.markdown));
 </script>
 
-<style>
+<style scoped>
 
 </style>

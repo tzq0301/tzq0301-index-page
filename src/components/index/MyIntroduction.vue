@@ -21,7 +21,7 @@
           text="github.com/tzq0301"/>
     </div>
   </div>
-  <a class="absolute bottom-3 text-xs text-gray-300 text-center" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备20029529号</a>
+  <a class="absolute bottom-3 text-xs text-gray-300 text-center no-underline" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备20029529号</a>
 </template>
 
 <script setup lang="ts">

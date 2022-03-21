@@ -6,6 +6,6 @@
 import Index from './components/index/Index.vue'
 </script>
 
-<style lang="less">
+<style scoped lang="less">
 
 </style>
