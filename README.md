@@ -1,11 +1,36 @@
-# Vue 3 + Typescript + Vite
+# tzq0301
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Problems & Solutions
 
-## Recommended IDE Setup
+### 如何去除 Vue 自带的页面边距
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+在 `index.html` 中加入以下标签即可
 
-## Type Support For `.vue` Imports in TS
+```html
+<style>
+    body {
+        margin: 0 !important;
+    }
+</style>
+```
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+### 如果使用自定义字体
+
+将字体文件放到 `/public/fonts` 文件夹下（也可以放在其他文件夹中，无固定要求）
+
+使用 `@font-face` 创建 `font-family
+
+```css
+@font-face {
+  font-family: merriweather;
+  src: url("/public/fonts/Merriweather/Merriweather-Regular.ttf");
+}
+```
+
+在 css 中使用即可
+
+```css
+#name {
+  font-family: merriweather, serif;
+}
+```

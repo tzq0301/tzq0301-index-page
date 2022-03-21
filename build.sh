@@ -22,5 +22,5 @@ echo ""
 
 echo "$host reload Nginx"
 ssh "$host" "systemctl reload nginx"
-echo "Finish Reload Nginx. Please wait a moment for reloading"
+echo "Finish Reload Nginx. Please wait a moment for reloading."
 echo ""
