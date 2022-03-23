@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="introduction">
     <div class="flex justify-center">
       <img id="avatar" class="w-52 h-52 rounded-full object-cover" src="/public/images/tzq.jpg" alt="无法显示头像"/>
     </div>
@@ -36,4 +36,8 @@ const name = "tzq0301";
 
 <style scoped lang="less">
 @import url(/src/css/fonts);
+
+#introduction {
+  transform: translateY(-10%);
+}
 </style>

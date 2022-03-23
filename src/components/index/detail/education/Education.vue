@@ -18,13 +18,17 @@ const educationItems = [
   {
     school: "Sichuan University",
     major: "Software Engineering",
-    averageScore: "90.823",
+    averageScore: "90.91",
     cet6: "531/750",
     courses: [
       "Distributed System (99)",
       "Discrete Mathematics (97)",
       "Operating System (96)",
-      "Basic Program Design (96)",
+      "Haskell Functional Programming (96)",
+      "C Language Programming Design (96)",
+      "Probability & Statistics (95)",
+      "Software Engineering (95)",
+      "Big Data (94)",
     ],
   }
 ]
