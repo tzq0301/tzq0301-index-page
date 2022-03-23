@@ -3,7 +3,7 @@
     <div class="basis-[30%] flex overflow-hidden justify-center items-center bg-[url('/public/images/cover.jpeg')]">
       <MyIntroduction/>
     </div>
-    <div class="basis-[70%] overflow-scroll px-10 py-4">
+    <div class="basis-[70%] overflow-scroll px-14 py-4">
       <MyDetail/>
     </div>
   </div>
