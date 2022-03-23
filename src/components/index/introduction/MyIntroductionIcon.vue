@@ -3,7 +3,7 @@
     <img class="w-5 h-5" :src="iconPath" alt="无法展示图标"/>
     <span>&ensp;</span>
     <span class="text-white text-center mw-regular pointer text-sm hover:underline"
-          @click="locate(props.iconValue)">
+          @click="locate(props.iconValue || '')">
       {{ text }}
     </span>
   </div>
