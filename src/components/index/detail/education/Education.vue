@@ -7,7 +7,8 @@
         :major="item.major"
         :average-score="item.averageScore"
         :cet6="item.cet6"
-        :courses="item.courses"/>
+        :courses="item.courses"
+        :international-exchange-experience="item.internationalExchangeExperience"/>
   </div>
 </template>
 
@@ -18,7 +19,7 @@ const educationItems = [
   {
     school: "Sichuan University",
     major: "Software Engineering",
-    averageScore: "90.91",
+    averageScore: "90.91 (15/207)",
     cet6: "531/750",
     courses: [
       "Distributed System (99)",
@@ -30,6 +31,7 @@ const educationItems = [
       "Software Engineering (95)",
       "Big Data (94)",
     ],
+    internationalExchangeExperience: "National University of Singapore, Summer Workshop, Cloud Computing Topic",
   }
 ]
 
