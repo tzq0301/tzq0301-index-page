@@ -12,17 +12,17 @@
 
     <div class="flex justify-center items-center space-y-3 flex-col">
       <MyIntroductionIcon
-          icon-path="/icons/location.png"
-          icon-value="https://zh.wikipedia.org/wiki/%E6%88%90%E9%83%BD%E5%B8%82"
-          text="Chengdu, China"/>
+          icon-path="/icons/github.png"
+          icon-value="https://github.com/tzq0301"
+          text="github.com/tzq0301"/>
       <MyIntroductionIcon
           icon-path="/icons/gmail.png"
           icon-value="tzq0301@gmail.com"
           text="tzq0301@gmail.com"/>
       <MyIntroductionIcon
-          icon-path="/icons/github.png"
-          icon-value="https://github.com/tzq0301"
-          text="github.com/tzq0301"/>
+          icon-path="/icons/location.png"
+          icon-value="https://zh.wikipedia.org/wiki/%E6%88%90%E9%83%BD%E5%B8%82"
+          text="Chengdu, China"/>
     </div>
   </div>
   <a class="absolute bottom-3 text-xs text-gray-300 text-center no-underline" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备20029529号</a>

@@ -1,14 +1,5 @@
 <template>
   <div class="mw-regular">
-    <h1>Welcome to My Index!</h1>
-
-    <ul class="check-list">
-      <li>🔭 I’m currently studying at Sichuan University (SCU)</li>
-      <li>🌱 I’m currently learning Natural Language Processing (NLP)</li>
-      <li>📫 How to reach me: tzq0301@gmail.com</li>
-      <li>⚡ Fun fact: Java, LOL, Basketball 🏀</li>
-    </ul>
-
     <Education/>
     <Publication/>
     <Project/>
